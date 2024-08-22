@@ -21,40 +21,40 @@ This a car wash service web application that provides users a platform to make e
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Cologne page: <br/>
-<img src="https://i.imgur.com/LIs7xLf.png" height="80%" width="80%" />
+Home page: <br/>
+<img src="https://i.imgur.com/KSnfkLE.png" height="80%" width="80%" />
 <br />
 <br />
-Cart page: <br/>
-<img src="https://i.imgur.com/Q21MquF.png" height="80%" width="80%" />
+Home page: <br/>
+<img src="https://i.imgur.com/INZQQbE.png" height="80%" width="80%" />
 <br />
 <br />
-Admin colognes page: <br/>
-<img src="https://i.imgur.com/5ZGWl2C.png" height="80%" width="80%" />
+Services page: <br/>
+<img src="https://i.imgur.com/JOFcgg1.png" height="80%" width="80%" />
 <br />
 <br />
-Admin cologne types page: <br/>
-<img src="https://i.imgur.com/Tg96SCI.png" height="80%" width="80%" />
+About us page: <br/>
+<img src="https://i.imgur.com/v2BtgUt.png" height="80%" width="80%" />
 <br />
 <br />
-Admin stock page: <br/>
-<img src="https://i.imgur.com/ec4CG05.png" height="80%" width="80%" />
+Contact page: <br/>
+<img src="https://i.imgur.com/XDa9Tk4.png" height="80%" width="80%" />
 <br />
 <br />
-Admin orders page: <br/>
-<img src="https://i.imgur.com/JcvVejr.png" height="80%" width="80%" />
+Package page: <br/>
+<img src="https://i.imgur.com/wTdkIqM.png" height="80%" width="80%" />
 <br />
 <br />
-API: <br/>
-<img src="https://i.imgur.com/OTBISs4.png" height="80%" width="80%" />
+Membership page: <br/>
+<img src="https://i.imgur.com/1oKHkj2.png" height="80%" width="80%" />
 <br />
 <br />
-JSON: <br/>
-<img src="https://i.imgur.com/ZX91Pe8.png" height="80%" width="80%" />
+Register page: <br/>
+<img src="https://i.imgur.com/tECJBMF.png" height="80%" width="80%" />
 <br />
 <br />
-MS SQL Server database: <br/>
-<img src="https://i.imgur.com/qhCS3oG.png" height="80%" width="80%" />
+Login page: <br/>
+<img src="https://i.imgur.com/Q34Cug0.png" height="80%" width="80%" />
 <br />
 <br />
 
