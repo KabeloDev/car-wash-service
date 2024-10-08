@@ -25,7 +25,6 @@ Home page: <br/>
 <img src="https://i.imgur.com/KSnfkLE.png" height="80%" width="80%" />
 <br />
 <br />
-Home page: <br/>
 <img src="https://i.imgur.com/INZQQbE.png" height="80%" width="80%" />
 <br />
 <br />
