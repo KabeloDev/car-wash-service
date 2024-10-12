@@ -44,8 +44,23 @@ Package page: <br/>
 <img src="https://i.imgur.com/wTdkIqM.png" height="80%" width="80%" />
 <br />
 <br />
+<img src="https://i.imgur.com/jMLV6QE.png" height="80%" width="80%" />
+<br />
+<br />
+Checkout: <br/>
+<img src="https://i.imgur.com/mzFLnvF.png" height="80%" width="80%" />
+<br />
+<br />
 Membership page: <br/>
-<img src="https://i.imgur.com/1oKHkj2.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/3TXpUpD.png" height="80%" width="80%" />
+<br />
+<br />
+Membership sign up page: <br/>
+<img src="https://i.imgur.com/5O7aoAd.png" height="80%" width="80%" />
+<br />
+<br />
+Membership details page: <br/>
+<img src="https://i.imgur.com/4E6p6y9.png" height="80%" width="80%" />
 <br />
 <br />
 Register page: <br/>
