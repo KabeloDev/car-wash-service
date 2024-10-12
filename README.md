@@ -1,6 +1,6 @@
 <h1>Car wash service web app</h1>
 
- ### [YouTube Demonstration](https://youtu.be/KIKSpYGM36https://youtu.be/3nKiT8rDRpg)
+ ### [YouTube Demonstration](https://youtu.be/3nKiT8rDRpg)
 
 <h2>Description</h2>
 This a car wash service web application that provides users a platform to make everything easier, quicker and more convenient when wanting to get their cars cleaned and car wash owners a platform to attract more customers.
