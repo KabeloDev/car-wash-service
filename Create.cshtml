@@ -1,0 +1,217 @@
+﻿@using System.Security.Claims
+@model CarWash_Service.Models.Member
+
+@{
+    ViewData["Title"] = "Create Membership";
+}
+
+<style>
+    body {
+        background-color: #f0f8ff; /* Light blue background */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 30px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        text-align: center;
+        color: #dc3545; /* Bootstrap danger color */
+    }
+
+    h4 {
+        text-align: center;
+        color: #6c757d; /* Bootstrap muted color */
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        background-color: #dc3545; /* Red color for primary button */
+        border-color: #dc3545;
+    }
+
+    .btn-primary:hover {
+        background-color: #c82333; /* Darker red on hover */
+        border-color: #bd2130;
+    }
+
+    .bitmoji-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .bitmoji-option {
+        text-align: center;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+
+    .bitmoji-option:hover {
+        transform: scale(1.1);
+    }
+
+    .bitmoji-option img {
+        width: 80px; /* Set a fixed width for Bitmoji images */
+        height: 80px; /* Set a fixed height for Bitmoji images */
+    }
+
+    .bitmoji-label {
+        margin-top: 5px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="container">
+    <h1>Membership</h1>
+    <h4>Join Us and Earn 100 Points!</h4>
+    <hr />
+
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="UserId" value="@User.FindFirstValue(ClaimTypes.NameIdentifier)" />
+
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" required />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Points" class="control-label"></label>
+                    <input asp-for="Points" class="form-control" value="100" readonly /> <!-- Automatically set to 100 points -->
+                    <span asp-validation-for="Points" class="text-danger"></span>
+                </div>
+
+                <h5>Join the Family, Enjoy the Rewards!</h5>
+                <div class="bitmoji-container">
+                    <div class="bitmoji-option">
+                        <img src="https://cdn.dribbble.com/users/1223630/screenshots/8115260/media/8145a871d9c4d67ec06e047ccc6574b4.gif" alt="Bitmoji 1" onclick="selectBitmoji('bitmoji1.png')" height="150" width="150" />
+                    </div>
+                    <div class="bitmoji-option">
+                        <img src="https://cdnl.iconscout.com/lottie/free/thumb/free-female-avatar-5493577-4581439.gif" alt="Bitmoji 2" onclick="selectBitmoji('bitmoji2.png')" height="150" width="150" />
+                    </div>
+                    <div class="bitmoji-option">
+                        <img src="https://cliply.co/wp-content/uploads/2020/10/avatars-3d-pack.gif" alt="Bitmoji 3" onclick="selectBitmoji('bitmoji3.png')" height="150" width="150" />
+                    </div>
+                    <!-- Add more Bitmoji options as needed -->
+                </div>
+
+                @* <input type="hidden" asp-for="SelectedBitmoji" id="selectedBitmoji" /> *@
+
+                <br />
+
+                <div class="form-group d-flex justify-content-center">
+                    <input type="submit" value="Submit" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Carousel for Reviews -->
+<div id="reviewCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 40px;">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="text-center">
+                <img src="https://randomuser.me/api/portraits/men/1.jpg" class="rounded-circle" alt="Member 1" style="width: 80px; height: 80px;">
+                <p class="mt-3"><em>"Joining this membership has been a game-changer for me! I love the points!"</em></p>
+                <strong>- Alex Johnson</strong>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="text-center">
+                <img src="https://randomuser.me/api/portraits/women/1.jpg" class="rounded-circle" alt="Member 2" style="width: 80px; height: 80px;">
+                <p class="mt-3"><em>"Fantastic service and great rewards. I can't recommend it enough!"</em></p>
+                <strong>- Emma Roberts</strong>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="text-center">
+                <img src="https://randomuser.me/api/portraits/men/2.jpg" class="rounded-circle" alt="Member 3" style="width: 80px; height: 80px;">
+                <p class="mt-3"><em>"I earned points quickly, and they made my car wash so much cheaper!"</em></p>
+                <strong>- Michael Smith</strong>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="text-center">
+                <img src="https://randomuser.me/api/portraits/women/2.jpg" class="rounded-circle" alt="Member 4" style="width: 80px; height: 80px;">
+                <p class="mt-3"><em>"The Bitmoji feature is fun! I love personalizing my profile."</em></p>
+                <strong>- Olivia Brown</strong>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="text-center">
+                <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle" alt="Member 5" style="width: 80px; height: 80px;">
+                <p class="mt-3"><em>"Great community and fantastic rewards for loyal members!"</em></p>
+                <strong>- Noah Davis</strong>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<style>
+    .carousel-item {
+        padding: 30px; /* Add padding for better spacing */
+        background-color: #e9ecef; /* Light grey background for contrast */
+        border-radius: 10px; /* Rounded corners */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: #dc3545; /* Red background for controls */
+        border-radius: 50%; /* Circular controls */
+    }
+
+        .carousel-control-prev-icon:hover,
+        .carousel-control-next-icon:hover {
+            background-color: #c82333; /* Darker red on hover */
+        }
+
+    strong {
+        display: block; /* Stack member name below review */
+        margin-top: 10px; /* Spacing between review and name */
+        font-size: 1.1em; /* Slightly larger font for names */
+        color: #343a40; /* Darker text color for names */
+    }
+</style>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        function selectBitmoji(bitmojiFileName) {
+            document.getElementById('selectedBitmoji').value = bitmojiFileName;
+            // Optional: Highlight the selected Bitmoji (You can enhance this as needed)
+            const options = document.querySelectorAll('.bitmoji-option');
+            options.forEach(option => {
+                option.style.border = ''; // Reset border
+            });
+            const selectedOption = Array.from(options).find(option => option.querySelector('img').src.includes(bitmojiFileName));
+            selectedOption.style.border = '2px solid #dc3545'; // Highlight selected
+        }
+    </script>
+}
