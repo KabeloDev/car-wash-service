@@ -3,14 +3,14 @@
  ### [YouTube Demonstration](https://youtu.be/pQUfHWoh47w)
 
 <h2>Description</h2>
-This a car wash service web application that provides users a platform to make everything easier, quicker and more convenient when wanting to get their cars cleaned and car wash owners a platform to attract more customers.
+Check out my Car Wash Service App! 🚗✨ Features include 2FA security, house call bookings with dynamic pricing, a membership rewards system, and real-time service status updates. It also has a chatbot for FAQs and automated email handling for smoother communication. Built using ASP.NET Core MVC, JavaScript, and MS SQLite to enhance convenience and engagement for customers and owners. 🧼🚙
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>ASP.NET Core</b>
-- <b>ASP.NET Core web API</b>
+- <b>ASP.NET Core MVC</b>
+- <b>HTML, CSS & JavaScript</b>
 - <b>Microsoft SQLlite</b>
 
 <h2>Environments Used </h2>
