@@ -22,53 +22,66 @@ This a car wash service web application that provides users a platform to make e
 
 <p align="center">
 Home page: <br/>
-<img src="https://i.imgur.com/KSnfkLE.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/aw4BRC7.png" height="80%" width="80%" />
 <br />
 <br />
-<img src="https://i.imgur.com/INZQQbE.png" height="80%" width="80%" />
-<br />
-<br />
-Services page: <br/>
-<img src="https://i.imgur.com/JOFcgg1.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/sTbiREo.png" height="80%" width="80%" />
 <br />
 <br />
 About us page: <br/>
-<img src="https://i.imgur.com/v2BtgUt.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/IUWeHax.png" height="80%" width="80%" />
 <br />
 <br />
-Contact page: <br/>
-<img src="https://i.imgur.com/XDa9Tk4.png" height="80%" width="80%" />
+Services page: <br/>
+<img src="https://i.imgur.com/lp87Y0M.png" height="80%" width="80%" />
 <br />
 <br />
-Package page: <br/>
+House call services page: <br/>
+<img src="https://i.imgur.com/7jRe9tP.png" height="80%" width="80%" />
+<br />
+<br />
+Empty Package page: <br/>
 <img src="https://i.imgur.com/wTdkIqM.png" height="80%" width="80%" />
 <br />
 <br />
+Package page: <br/>
 <img src="https://i.imgur.com/jMLV6QE.png" height="80%" width="80%" />
 <br />
 <br />
 Checkout: <br/>
-<img src="https://i.imgur.com/mzFLnvF.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/ovxzBYN.png" height="80%" width="80%" />
 <br />
 <br />
 Membership page: <br/>
-<img src="https://i.imgur.com/3TXpUpD.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/kmJ2dxA.png" height="80%" width="80%" />
 <br />
 <br />
 Membership sign up page: <br/>
-<img src="https://i.imgur.com/5O7aoAd.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/2aT6PNP.png" height="80%" width="80%" />
 <br />
 <br />
 Membership details page: <br/>
-<img src="https://i.imgur.com/4E6p6y9.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/Qb4HUsZ.png" height="80%" width="80%" />
+<br />
+<br />
+Appointment status page: <br/>
+<img src="https://i.imgur.com/rjWupuC.png" height="80%" width="80%" />
+<br />
+<br />
+Contact page: <br/>
+<img src="https://i.imgur.com/tLNz0WJ.png" height="80%" width="80%" />
+<br />
+<br />
+FAQ Chatbot page: <br/>
+<img src="https://i.imgur.com/4bKFMVw.png" height="80%" width="80%" />
 <br />
 <br />
 Register page: <br/>
-<img src="https://i.imgur.com/tECJBMF.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/GVcXXqw.png" height="80%" width="80%" />
 <br />
 <br />
 Login page: <br/>
-<img src="https://i.imgur.com/Q34Cug0.png" height="80%" width="80%" />
+<img src="https://i.imgur.com/bpZ2toF.png" height="80%" width="80%" />
 <br />
 <br />
 
